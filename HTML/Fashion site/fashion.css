@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+    border-left: 15px solid rgb(173, 121, 54);
+    border-right: 15px solid rgb(173, 121, 54);
+    align-items: center;
+    /*overflow-y: hidden; */ 
+    scroll-behavior: smooth;
+}
+
+.container{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+    padding-top: 1%;
+    padding-left: 15%;
+    display: flex;   
+    /*gap: 10px;*/
+    padding-bottom: 124px;
+}
+
+img{
+    width: 65%;
+    
+}
+
+.right{
+    flex-direction: column;
+    padding-top:0;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(173, 121, 54);
+}
+
+p{
+    font-size: 1.2rem;
+}
+.clothes{
+    box-shadow: -0.5rem -0.5rem rgb(173, 121, 54);
+}
+
+.red{
+    box-shadow: 0.5rem 0.5rem rgb(173, 121, 54);
+}
+
+button{
+    background-color:rgb(173, 121, 54) ;
+    color: aliceblue;
+    border: none;
+    padding: 3.5% 5%;
+    font-style: italic;
+    font-size: 1rem;
+    transform: skew(-20deg); 
+    cursor: pointer;
+    opacity: .9;
+}
+
+button:hover {
+    opacity:3;
+}
+
+.long{
+    width: 65%;
+}
+
+.visit{
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    .hidden-mobile {
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+    .body{
+        overflow: scroll;
+    }
+ 
+}

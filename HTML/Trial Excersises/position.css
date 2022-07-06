@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    height: 20rem;
+    background-color: aqua;
+    font-size: larger;
+    font-weight: 5rem;
+
+    
+}
+
+{
+    margin: 25%;
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}

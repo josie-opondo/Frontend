@@ -1,0 +1,31 @@
+button{
+    background-color: rgb(57, 121, 141);
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border-color: rgb(90, 70, 165);
+    box-shadow: 5px 9px #999;
+    
+    
+}
+.button:hover {
+    background-color: aqua;
+}
+.button2:active { 
+    background-color: cyan;
+    transform: translate(4px);
+
+}
+.left{
+    position: fixed;
+    right: 10rem;
+    top: 5rem;
+
+}
+
+.right{
+    position: fixed;
+    left: 7rem;
+    bottom: 10rem;
+}

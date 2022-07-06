@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(246,205,223);
+    background: radial-gradient(circle, rgba(246,205,223,1) 0%, rgba(232,239,247,1) 100%);
+    margin: 0px ;
+}
+
+img{
+    float: right;
+    height: 100%;
+    width: 500px;
+}
+
+/*.img-box img{
+    display: block;
+}
+/*.circle{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    shape-outside: circle();
+    clip-path: circle();
+    color: rgb(241, 168, 180) ;
+}*/
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+    padding-left: 10%;
+    
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+span{
+    font-weight: 2;
+    color: rgb(241, 168, 180);
+}
+
+p{
+    color: rgb(209, 131, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    word-wrap: break-word;
+}
+
+input[type=text], input[type=password] {
+    width: 40%;
+    padding: 10px;
+    margin: 20px 0 1% 0.1%;
+    /*display: inline-block;*/
+    background: rgb(253, 228, 233);
+    border-radius: 3rem;
+    border-style: groove;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+/*.buttonIn{
+    width: 300px;
+    position: relative;
+}*/
+
+button{
+    /*position: ;*/
+    top: 0;
+    border-radius: 3rem;
+    right: 40%;
+    z-index: 2;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(209, 131, 144);
+    transform: translate(2px);
+    border: none;
+    font-size: 1.5rem;
+    font-weight:1;
+    
+}
+
+@media screen and (max-width: 780px) {
+    .hidden-mobile {
+        display: none;
+    }
+    input[type=text], input[type=password]{
+        width: 80%;
+    }
+    p{
+        word-wrap: break-word;
+    }
+}

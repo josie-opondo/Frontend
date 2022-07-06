@@ -1,0 +1,21 @@
+.data-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center; 
+    min-height: 100vh;
+}
+
+.h-1{
+    margin-left: 40px;
+}
+
+button{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 4px 8px rgba(73, 78, 5, 0.9);
+}

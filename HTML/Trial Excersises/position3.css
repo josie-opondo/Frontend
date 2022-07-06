@@ -1,0 +1,78 @@
+body{
+    margin: 2rem;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 25px ;
+    display: inline-block;
+    background-color: lightseagreen;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 9px #999;
+    
+    
+}
+
+.one{
+    position: fixed;
+    left: 10%;
+    top: 5%;
+        
+}
+.two{
+    position: fixed;
+    left: 40%;
+    top: 5%;
+    
+}
+.three{
+    position: fixed;
+    left: 70%;
+    top: 5%;
+    
+}
+.four{
+    position: fixed;
+    left: 10%;
+    top: 35%;
+    
+}
+.five{
+    position: fixed;
+    left: 40%;
+    top: 35%;
+    
+}
+.six{
+    position: fixed;
+    left: 70%;
+    top: 35%;
+    
+}
+.seven{
+    position: fixed;
+    left: 10%;
+    top: 65%;
+    
+}
+.eight{
+    position: fixed;
+    left: 40%;
+    top: 65%;
+    
+}
+.nine{
+    position: fixed;
+    left: 70%;
+    top: 65%;
+    
+}
+
+{
+    display: flex
+    justify-content: space-between
+    margin-left
+    margin-right
+    margin-top
+}

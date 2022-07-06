@@ -1,0 +1,41 @@
+/*nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 1.5rem 2rem;
+    background-color: rgb(39, 180, 236);
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}*/
+nav{
+    background: rgb(39, 180, 236) ;
+}
+img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 780px) {
+    .hidden-mobile {
+        display: none;
+    }
+    p{
+        word-wrap: break-word;
+    }
+    nav ul li{
+        padding: 0.2rem 1rem 0.5rem;
+    }
+    img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}

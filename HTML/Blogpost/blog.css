@@ -1,0 +1,32 @@
+body{
+    background-image: url(./gavel.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    padding: 100px;
+    position: fixed;
+    background-attachment: fixed;
+}
+h1{
+    position: fixed;
+    right: 3rem;
+    top: 2rem;
+    font-size: 3rem;
+    font-style: italic;
+    color: midnightblue;
+    
+}
+
+.content1{
+    position: fixed;
+    right: 3rem;
+    font-size: larger;
+}
+
+.content2{
+    position: fixed;
+    right: 3rem;
+    bottom: 22rem;
+    font-size: larger;
+    
+}

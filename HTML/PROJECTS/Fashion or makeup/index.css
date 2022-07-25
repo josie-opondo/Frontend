@@ -242,6 +242,10 @@ body {
   }
 }
 
+#shop {
+  margin-bottom:10px ;
+  
+}
 @media (max-width: 400px) {
     .logo {
         font-size: 30px;

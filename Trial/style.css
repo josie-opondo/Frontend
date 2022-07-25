@@ -1,0 +1,79 @@
+/*body {
+    
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+     
+}*/
+
+.panel {
+    height: 5vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: .5;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in ;
+}
+
+.panel.active {
+    height: 50vh;
+}
+
+.panel.active h2{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+    
+}
+
+
+.panel h2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: whitesmoke;
+    opacity: 0;
+    background-color: grey;
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+#Image-1 {
+    background-image: url(./goku\ 1.jpg);
+}
+
+#Image-2 {
+    background-image: url(BlackButler-750x469.jpg);
+}
+
+#Image-3 {
+    background-image: url(./Bluey.jpeg);
+}
+
+#Image-4 {
+    background-image: url(https://www.denofgeek.com/wp-content/uploads/2016/01/kung-fu-panda-3.jpg?fit=910%2C564);
+}
+
+#Image-5 {
+    background-image: url(./madagascar.jpg);
+}
+
+#Image-6 {
+    background-image: url(./gravity-falls.jpg);
+}
+
+#Image-7 {
+    background-image: url(https://deadline.com/wp-content/uploads/2019/06/sb_art_2-e1559671308624.jpg);
+}
+
+.container {
+    height: 95vh;
+    
+}
+
+
+
